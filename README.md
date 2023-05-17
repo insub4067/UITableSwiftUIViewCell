@@ -1,10 +1,11 @@
 # UITableSwiftUIViewCell
 
-## 🤔 What and Why? 
-UIKit 의 UITableView 에서 자유롭게 SwiftUI 를 사용하기 위해 만들었습니다.
+## 💡 What and Why? 
+UIKit 의 UITableView 에서 자유롭게 SwiftUI 를 사용하기 위해 만들었습니다.  
+UITableView 에서 제공하는 풍부한 API 와 SwiftUI 의 자유로우면서 빠른 UI 개발의 장점을 모두 가져갈수 있습니다.
 
 ## 📄 Example Code
-### UIKit Side
+### ✓ UIKit Side
 ```
 func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = UITableSwiftUIViewCell<TableCellView>()
@@ -14,7 +15,7 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 }
 ```
 
-### SwiftUI Side
+### ✓ SwiftUI Side
 ```
 struct TableCellView: View {
     
