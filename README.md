@@ -6,7 +6,7 @@ UITableView 에서 제공하는 풍부한 API 와 SwiftUI 의 자유로우면서
 
 ## 📄 Example Code
 ### ✓ UIKit Side
-```
+```Swift
 func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = UITableSwiftUIViewCell<TableCellView>()
     let view = TableCellView(person: dataSource.people[indexPath.row])
@@ -16,7 +16,7 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 ```
 
 ### ✓ SwiftUI Side
-```
+```Swift
 struct TableCellView: View {
     
     let person: DataSource.Person
