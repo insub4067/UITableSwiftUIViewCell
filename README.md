@@ -1,5 +1,9 @@
 # UITableSwiftUIViewCell
 
+## ⚠️ WARNING
+TableViewCell 에 HostingController 를 addChild 하는 방법은 좋은 생각이 아니었습니다.  
+라이프사이클에 혼란을 주고 예측하기 어려운 버그를 발생 시켰습니다.  
+
 ## 💡 What and Why? 
 UIKit 의 UITableView 에서 자유롭게 SwiftUI 를 사용하기 위해 만들었습니다.  
 UITableView 에서 제공하는 풍부한 API 와 SwiftUI 의 자유로우면서 빠른 UI 개발의 장점을 모두 가져갈수 있습니다.
